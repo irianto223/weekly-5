@@ -1,0 +1,38 @@
+* {
+    font-family: 'Slabo 27px', serif;
+}
+
+.main {
+  position: relative;
+  width: 600px;
+  background-color: #fff37b;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+ul {
+  margin: 0;
+  padding: 20px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: dashed;
+  border-width: 1px;
+}
+
+ul li:hover {
+  background: #eae184;
+}
+
+ul li.coret {
+  color: #bab156;
+  text-decoration: line-through;
+}
